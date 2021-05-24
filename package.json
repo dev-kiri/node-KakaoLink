@@ -1,0 +1,20 @@
+{
+  "name": "node-kakaolink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+      "kakao",
+      "kakaolink",
+      "node",
+      "카카오링크",
+      "카링",
+      "카카오톡",
+      "카톡"
+  ],
+  "author": "dev-kiri",
+  "license": "MIT"
+}
