@@ -32,6 +32,7 @@ export class CustomTemplateBuilder {
      */
     addArgument(key: string, value: string) {
         this.template_args[key] = value;
+        return this;
     }
 
     /**
@@ -40,6 +41,7 @@ export class CustomTemplateBuilder {
      */
     addArguments(args: Arguments) {
         Object.assign(this.template_args, args);
+        return this;
     }
 
     /**
