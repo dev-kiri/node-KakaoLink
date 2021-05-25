@@ -8,9 +8,9 @@ import { KakaoLink } from './';
 
 const kakao = new KakaoLink('app key', 'https://your_domain.com');
 
-async function login(email: string, password: string) {
-    await kakao.login(email, password);
-}
+kakao.login('example@kakao.com', 'password')
+    .then(() => console.log(kakao.getCookies()))
+    .catch(e => console.log('[로그인 실패]', e));
 ```
 ### Send Default Template
 ```typescript
